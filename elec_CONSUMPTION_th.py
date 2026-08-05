@@ -20,10 +20,18 @@
 #   output_th_path= r"z:\4-ELECTRICITY CONSUMPTION\Energy_TH_Report.png"
 
 import os
+import sys
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
+
+if getattr(sys, 'frozen', False):
+    BASE_DIR = sys._MEIPASS
+else:
+    BASE_DIR = os.path.dirname(__file__)
+
+bg_image_path = os.path.join(BASE_DIR, "Tennet.jpg")
 
 # =========================
 # Jalali calendar constants
