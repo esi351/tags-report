@@ -37,13 +37,13 @@ def index_to_persian_date(index_in_pandas):
 def main():
     try:
         # 1. تنظیم مسیرهای فایل
-        file_path = r"z:\electrical\4-ELECTRICITY CONSUMPTION\ENERGY Report -24 o'clock-1404.xlsb"
-        bg_image_path = r"z:\electrical\4-ELECTRICITY CONSUMPTION\Tennet.jpg"
-        output_path = r"z:\electrical\4-ELECTRICITY CONSUMPTION\Energy_Report.png"
+        file_path = r"z:\ELECTRICAL\4-ELECTRICITY CONSUMPTION\ENERGY Report -24 o'clock-1405.xlsb"
+        bg_image_path = r"z:\ELECTRICAL\4-ELECTRICITY CONSUMPTION\Tennet.jpg"
+        output_path = r"z:\ELECTRICAL\4-ELECTRICITY CONSUMPTION\Energy_Report.png"
         
         # بررسی وجود فایل اکسل
         if not os.path.exists(file_path):
-            local_path = r"c:\electrical\4-ELECTRICITY CONSUMPTION\ENERGY Report -24 o'clock-1404.xlsb"
+            local_path = r"z:\electrical\4-ELECTRICITY CONSUMPTION\ENERGY Report -24 o'clock-1405.xlsb"
             if os.path.exists(local_path):
                 file_path = local_path
             else:
