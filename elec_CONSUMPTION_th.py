@@ -112,7 +112,7 @@ def fmt_val(label, val):
 def main():
     try:
         # ====== Paths (your originals) ======
-        file_path      = r"z:\electrical\4-ELECTRICITY CONSUMPTION\ENERGY Report -24 o'clock-1404.xlsb"
+        file_path      = r"z:\electrical\4-ELECTRICITY CONSUMPTION\ENERGY Report -24 o'clock-1405.xlsb"
         bg_image_path  = r"z:\electrical\4-ELECTRICITY CONSUMPTION\Tennet.jpg"
         output_path    = r"z:\electrical\4-ELECTRICITY CONSUMPTION\Energy_Report.png"
         output_th_path = r"z:\electrical\4-ELECTRICITY CONSUMPTION\Energy_TH_Report.png"
